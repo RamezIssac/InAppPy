@@ -1,4 +1,4 @@
-InAppPy
+InAppPy (Python 2 Fork)
 =======
 |travis| |pypi|
 
@@ -8,12 +8,13 @@ InAppPy
     :target: https://badge.fury.io/py/inapppy
 
 In-app purchase validation library for Apple AppStore and GooglePlay.
+This version `0.9` of the original library with a very minor edit (py2 proper super call) to make it support Python 2.
 
 Installation
 ============
 ::
 
-    pip install inapppy
+    pip install git+https://github.com/RamezIssac/InAppPy-py2.git
 
 Usage
 =====
